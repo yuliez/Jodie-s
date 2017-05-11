@@ -1,0 +1,82 @@
+.contenedor {
+	width: 95%;
+	max-width:1000px;
+	margin:auto;
+}
+ 
+.contenedor p {
+	margin-bottom:40px;
+}
+ 
+header nav {
+	background:#ff7b3d;
+	margin-bottom:10px;
+	-webkit-transition: all ease 2s;
+	-o-transition: all ease 2s;
+	transition: all ease 2s;
+}
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+}
+ 
+header nav ul li a:hover {
+	background:#ff4000;
+}
+ 
+ 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+.menu-fixed ul li a {
+padding:5px 10px;
+}
+
+
+.banner{
+width: 700px;
+height: 300px;
+border: 3px solid red;
+margin:auto;
+
+background-size: 100% 100%;
+
+animation: banner 5s infinite;
+
+}
+
+@keyframes banner {
+
+   0%, 30%
+   background-image: url(titulo1.jpg);
+   }
+
+
+   35%, 65% {
+   background-image: url(titulo5.jpg);
+   }
+
+   70%, 100% {
+   background-image: url(titulo6.jpg);
+   }
+
+}
